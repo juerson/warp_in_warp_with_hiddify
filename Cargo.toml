@@ -1,0 +1,37 @@
+[package]
+name = "warp_on_warp_with_hiddify"
+version = "0.1.0"
+edition = "2021"
+
+[source.crates-io]
+replace-with = 'ustc'
+
+# 中国科学技术大学 
+[source.ustc]
+registry = "git://mirrors.ustc.edu.cn/crates.io-index"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.8.14"
+regex = "1.10.5"
+clipboard = "0.5.0"
+rand = "0.8.5"
+encoding = "0.2.33"
+csv = "1.3.0"
+
+[[bin]]
+name = "main1"
+path = "src/main1.rs" # warp on warp，数据来源用户输入的，无记忆功能
+
+[[bin]]
+name = "main2"
+path = "src/main2.rs" # warp on warp, 数据来源用户输入的，带记忆功能
+
+[[bin]]
+name = "main3"
+path = "src/main3.rs" # warp on warp，数据来源csv
+
+[[bin]]
+name = "main"
+path = "src/main.rs" # 普通warp

@@ -1,0 +1,34 @@
+[[warp_account]]
+private_key = "iIT7Bt4t6Kh2RxtbU1mpZFGmEce1LyjDx7SCpr7KDV4="
+public_key = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+reserved = "gmY9" # [130, 102, 61]
+local_address = ["172.16.0.2/32", "2606:4700:110:8ae5:7239:b559:a92e:7797/128"]
+fake_packets = "5-10"
+
+[[warp_account]]
+private_key = "yHqBTucGPz22CGKfOORyYNild2ADpXVmKSU66j7HFWM="
+public_key = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+reserved = "m/tH" # [155, 251, 71]
+local_address = ["172.16.0.2/32", "2606:4700:110:8ab7:4964:ba17:eb98:c50c/128"]
+fake_packets = "5-10"
+
+[[warp_account]]
+private_key = "GBrGqhpymCJNKr7Cn6v+shXQNFMLoE3IwBe7vByDPGc="
+public_key = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+reserved = "jlIa" # [142, 82, 26]
+local_address = ["172.16.0.2/32", "2606:4700:110:8fbd:759c:383c:4b34:501e/128"]
+fake_packets = "5-10"
+
+[[warp_account]]
+private_key = "eJoYTppWwkQjp5C8cVGlX0Hf4VXblmwbFk7O9EllM3Q="
+public_key = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+reserved = "LGuh" # [44, 107, 161]
+local_address = ["172.16.0.2/32", "2606:4700:110:83e1:e6cf:c08d:f988:75f1/128"]
+fake_packets = "5-10"
+
+[[warp_account]]
+private_key = "UCZwAhIvprhUENPtnCOHioIeg5dxvzdLp6VPpoV3Iks="
+public_key = "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo="
+reserved = "ugW1" # [186, 5, 181]
+local_address = ["172.16.0.2/32", "2606:4700:110:8d1f:7d66:efa1:8cae:6bb1/128"]
+fake_packets = "5-10"
