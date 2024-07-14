@@ -1,5 +1,5 @@
 [package]
-name = "warp_on_warp_with_hiddify"
+name = "warp_in_warp_with_hiddify"
 version = "0.1.0"
 edition = "2021"
 
@@ -22,15 +22,15 @@ csv = "1.3.0"
 
 [[bin]]
 name = "main1"
-path = "src/main1.rs" # warp on warp，数据来源用户输入的，无记忆功能
+path = "src/main1.rs" # warp in warp，数据来源用户输入的，无记忆功能
 
 [[bin]]
 name = "main2"
-path = "src/main2.rs" # warp on warp, 数据来源用户输入的，带记忆功能
+path = "src/main2.rs" # warp in warp, 数据来源用户输入的，带记忆功能
 
 [[bin]]
 name = "main3"
-path = "src/main3.rs" # warp on warp，数据来源csv
+path = "src/main3.rs" # warp in warp，数据来源csv
 
 [[bin]]
 name = "main"

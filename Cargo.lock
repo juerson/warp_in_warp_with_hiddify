@@ -406,7 +406,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3354b9ac3fae1ff6755cb6db53683adb661634f67557942dea4facebec0fee4b"
 
 [[package]]
-name = "warp_on_warp_with_hiddify"
+name = "warp_in_warp_with_hiddify"
 version = "0.1.0"
 dependencies = [
  "clipboard",

@@ -6,7 +6,7 @@ use serde_json::{json, Value as json_value};
 use std::{fs, thread, time::Duration};
 use toml::Value as toml_value;
 
-/* 该程序：读取csv文件的数据，筛选丢包率为0%，延迟小于1000ms的前60个endpoint，生成 Hiddify 配置（warp on warp）*/
+/* 该程序：读取csv文件的数据，筛选丢包率为0%，延迟小于1000ms的前60个endpoint，生成 Hiddify 配置（warp in warp）*/
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let file_path = "result.csv";
     let ip_with_port_vec = utils::endpoint::get_endpoints_from_file(file_path, 1000);

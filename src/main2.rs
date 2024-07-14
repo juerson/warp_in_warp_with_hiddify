@@ -6,7 +6,7 @@ use serde_json::{json, Value as json_value};
 use std::{collections::HashSet, fs};
 use toml::Value as toml_value;
 
-/* 该程序：可以连续捕捉用户输入的endpoint，并支持将之前输入的所有endpoint汇总起来(去重)，生成在一个 Hiddify 配置（warp on warp） */
+/* 该程序：可以连续捕捉用户输入的endpoint，并支持将之前输入的所有endpoint汇总起来(去重)，生成在一个 Hiddify 配置（warp in warp） */
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 读取TOML文件内容
     let toml_str = fs::read_to_string("config.toml")?;
